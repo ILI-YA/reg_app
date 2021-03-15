@@ -1,0 +1,147 @@
+.App {
+  display: flex;
+}
+
+.reg-acc {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Name app */
+
+h4 {
+  text-align: center;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: white;
+}
+
+/* Form */
+
+.form {
+  margin: 0 auto;
+}
+
+.form-control {
+  text-transform: uppercase;
+}
+
+.doc_series {
+  width: 60px;
+}
+
+.doc_num {
+  width: 150px;
+}
+
+.btn-width {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Main */
+
+.main {
+  width: 84%;
+}
+
+/* Main Nav */
+
+.main-nav {
+  background: dodgerblue;
+  padding: 10px 5px;
+  font-size: calc(10px + 0.5vw);
+}
+
+.main-nav-a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.main-nav-a::before {
+  content: '/';
+  padding: 5px;
+}
+
+/* Main Container */
+
+.main .main-container {
+  width: 95%;
+  margin: 0 auto;
+  border: 1px solid gray;
+}
+
+.main-container .input-group-text {
+  background-color: white;
+}
+
+.main-container .search {
+  background-color: gainsboro;
+}
+
+/* Table */
+
+.main-container .table {
+  width: 98%;
+  margin: 15px auto;
+  border: 1px solid dodgerblue;
+  border-radius: 5px;
+}
+
+.table .table-head {
+  background: dodgerblue;
+  text-align: center;
+  color: white;
+}
+
+.div-row {
+  display: flex;
+  border-bottom: 1px solid grey;
+}
+
+.div-col {
+  width: 200px;
+  text-align: center;
+  background: #cce6ff;
+  border-right: 1px solid grey;
+  padding: 4px 20px 4px 4px;
+}
+
+.div-col-result {
+  width: 200px;
+  text-align: center;
+  background: white;
+  border-right: 1px solid grey;
+  padding: 4px 20px 4px 4px;
+}
+
+/* Page Number pagination */
+
+#page-numbers {
+  margin: 0;
+}
+
+#page-numbers > li {
+  background: dodgerblue;
+  color: white;
+  margin-right: 0.3em;
+  user-select: none;
+  cursor: pointer;
+  border: none;
+}
+
+#page-numbers > li:active {
+  font-weight: bold;
+  color: black;
+}
